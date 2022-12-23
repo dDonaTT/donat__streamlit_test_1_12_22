@@ -38,7 +38,7 @@ list = string1
 """This button counts the elements of the list
 """
 if st.button("print_count"):
-    st.write(list)
+    st.write(count(list))
 
 print(count(list))
 
