@@ -20,7 +20,7 @@ print(convert_list(str1))
 def convert_lower(string):   
     str1_upper = [string.upper() for string in str1]
     print(str1_upper)
-str1=["Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."]
+str1=string1
 """
 This button converts that list in upper case
 """
@@ -34,7 +34,7 @@ def count(list):
     for element in list:
         count += 1
     return count
-list = str1
+list = string1
 """This button counts the elements of the list
 """
 if st.button("print_count"):
