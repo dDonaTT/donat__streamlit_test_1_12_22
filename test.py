@@ -1,6 +1,6 @@
 import streamlit as st
 
-string1 = st.text_input("Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.")
+string1 = st.text_input("")
 def convert_list(string):
     li = list(string.split(" "))
     return li
