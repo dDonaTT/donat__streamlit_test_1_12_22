@@ -6,7 +6,7 @@ string1 = st.text_input("")
 def convert_list(string):
     li = list(string.split(" "))
     return li
-str1 = "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+str1 = string1
 
 """
 This button return the list of words
